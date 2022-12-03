@@ -98,3 +98,32 @@ footer {
     margin: 10px;
     background-color: white;
 }
+
+
+
+@media only screen and (min-width: 400px) and (max-width: 1200px) {
+    h1 {
+        font-size: 8rem;
+        color: #DBEDF3;
+        font-family: "Arvo", cursive;
+        text-shadow: 3px 0 #DA0463;
+    }
+
+    .drum {
+        outline: none;
+        border: 10px solid #404B69;
+        font-size: 8rem;
+        font-family: 'Arvo', cursive;
+        line-height: 2;
+        font-weight: 900;
+        color: #0e88bd85;
+        text-shadow: 1px 0 #DBEDF3;
+        border-radius: 15px;
+        display: inline-block;
+        width: 250px;
+        height: 230px;
+        text-align: center;
+        margin: 10px;
+        background-color: white;
+    }
+}
